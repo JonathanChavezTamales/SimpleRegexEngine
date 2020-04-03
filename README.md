@@ -4,6 +4,8 @@ Author: Jonathan Chávez
 
 This is a simple regex engine that accepts concatenation, union, kleene star and parenthesis.
 
+Implementing using Shunting Yard algorithm to parse the expression, then Thompson's construction to create a NFA given the parsed expression, finally traversing the NFA.
+
 ### Hierarchy:
 * `()`
 * `*`
