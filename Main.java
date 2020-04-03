@@ -1,13 +1,19 @@
 public class Main {
 
 	public static void main(String[] args) {
+
+		if(args.length == 3){
+			System.out.println(replace(args[0], args[1], args[2]));
+		}
+		
+		/*
 		System.out.println(replace("abaa aab aaanbbb", "aba*+bbb*", "ccc"));
 		System.out.println(replace("cabaaaaa", "caba+ab*", "x"));
 		System.out.println(replace("abaaaabaaanbbb", "aba*+bbb*", "ccc"));
 		System.out.println(replace("a", "ab*", "x"));
 		System.out.println(replace("abnnnnnccccb", "(ab+c)b", "x"));
 		System.out.println(replace("abnnnnnccccb", "(ab+c)*b", "x"));
-		
+		*/
 		
 	}
 	
