@@ -18,7 +18,7 @@ You can run with docker and pass the parameters at runtime with the following in
 
 `git clone https://github.com/JonathanChavezTamales/SimpleRegexEngine && cd SimpleRegexEngine`
 
-`docker build -t regexengine`
+`docker build -t regexengine .`
 
 `docker run -t regexengine [string] [pattern] [replacement]`
 
